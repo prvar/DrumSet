@@ -1,0 +1,78 @@
+body {
+    background-image: url("drums.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 100px;
+    color: #1bbdc0;
+    font-family: "Arvo", cursive;
+    text-shadow: 5px 0 #DA0463;
+  
+  }
+
+  h5 {
+    outline: none;
+    border: 10px  #9375ad;
+    border-bottom-style: inset;
+    border-radius: 15px;
+    font-size: 2rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 100;
+    color: #DA0463;
+    text-shadow: 3px 0 #1bbdc0;
+    display: contents;
+    text-align: center;
+    margin: 10px;
+    background: scroll;
+    background-color: rgb(240, 222, 222);
+  }
+  
+  .button {
+    outline: none;
+    border: 10px solid #ff7ab2;
+    font-size: 2rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 100;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px #ff7ab2;
+  }
+  
+  .set {
+    display: flex;
+    margin: 8% auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .playing {
+    display: inline-block;
+    transform: scale(1..05);
+    border-color:#1bbdc0;
+    box-shadow: 0 0 30px #1bbdc0;
+    opacity: 0.9;
+  }
+
+  footer{
+    color: grey;
+    display: flex;
+    padding: 10px 0 20px 0;
+    background-color: black;
+    margin-top: 333px;
+    justify-content: space-evenly;
+    width: auto;
+  }
